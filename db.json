@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "body": "wooooooooooow"
+    },
+    {
+      "id": 1678097557916,
+      "title": "new lah",
+      "body": "lah new",
+      "userId": 1
+    },
+    {
+      "id": 1678346133798,
+      "title": "sesuatu yang adalah ini itu",
+      "body": "ini itu adalah sesuatu",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

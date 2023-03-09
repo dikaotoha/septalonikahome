@@ -5,7 +5,8 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import BlogPost from "../Blogpost/Blogpost";
+import BlogPost from "../pages/Blogpost/Blogpost";
+import LifecycleComponent from "../pages/LifecycleComponent/LifecycleComponent";
 
 class Home extends Component {
     state = {
@@ -25,9 +26,9 @@ class Home extends Component {
             <Router>
                 <Routes>
                     <Route path="/" exact element={<BlogPost />}/>
-                    {/* <Route path="/lifecyclecomponent" element={<LifeCycleComponent/>}/>    
-                    <Route path="/product" element={<Product/>}/>
-                    <Route path= "/youtubecomponent" element={<YouTubeComponent/>}/> */}
+                    <Route path="/lifecyclecomponent" element={<LifecycleComponent />}/>    
+                    {/* <Route path="/product" element={<Product/>}/> */}
+                    {/* <Route path= "/youtubecomponent" element={<YouTubeComponent/>}/> */}
                 </Routes>
             </Router>
         )

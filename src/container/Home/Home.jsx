@@ -9,6 +9,7 @@ import {
 
 //Pages
 import BlogPost from "../pages/Blogpost/Blogpost";
+import DetailPost from "../pages/Blogpost/DetailPost/DetailPost";
 import LifecycleComponent from "../pages/LifecycleComponent/LifecycleComponent";
 import Product from "../pages/Product/Product";
 import YouTubeComponent from "../pages/YoutubeComponent/YoutubeComponent";
@@ -40,6 +41,7 @@ class Home extends Component {
                 </div>
                 <Routes>
                     <Route path="/" exact element={<BlogPost />}/>
+                    <Route path="detail-post/:id" element={<DetailPost />} />
                     <Route path="/lifecycle-component" element={<LifecycleComponent/>}/>    
                     <Route path="/product" element={<Product/>}/>
                     <Route path= "/youtubecomponent" element={<YouTubeComponent/>}/>
